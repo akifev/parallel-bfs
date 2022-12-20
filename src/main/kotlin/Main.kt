@@ -4,7 +4,7 @@ import graph.GridGraph
 import kotlin.system.measureTimeMillis
 
 fun main() {
-    val graph = GridGraph(350, dim = 3)
+    val graph = GridGraph(500, dim = 3)
     val startNode = 0
     val seqDistance = IntArray(graph.numberOfNodes) { Int.MAX_VALUE }
     seqDistance[startNode] = 0
